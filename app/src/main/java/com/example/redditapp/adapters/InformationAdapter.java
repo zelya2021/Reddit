@@ -17,9 +17,8 @@ public class InformationAdapter extends ArrayAdapter<Information> {
     private int resource;
     private LayoutInflater inflater;
     private Context ctx;
-    //private OnViewClickListener onViewClickListener;
 
-    public InformationAdapter(Context context, int resource, List<Information> informationList) {
+    public InformationAdapter(Context  context, int resource, List<Information> informationList) {
         super(context, resource, informationList);
         ctx = context;
         this.informationList = informationList;               //список
