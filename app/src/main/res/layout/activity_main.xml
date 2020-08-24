@@ -7,12 +7,51 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Comment"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPicture" />
+
+    <TextView
+        android:id="@+id/tvPicture"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Picture"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAuthor" />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Author"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
