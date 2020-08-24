@@ -7,4 +7,10 @@
     tools:context=".MainActivity">
 
 
+    <ListView
+        android:id="@+id/lv_info"
+        android:layout_width="419dp"
+        android:layout_height="543dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
